@@ -12,7 +12,7 @@
 .container{
     max-width: 1440px;
     margin: auto;
-    padding: 0 15px;
+    padding: 50px 15px;
 }
 
 .flex{
@@ -106,6 +106,44 @@ h1{
 #text-container article p{
     margin-bottom: 40px;
     font-size: 18px;
+}
+
+/* Section 2 */
+
+#office{
+    height: 655px;
+}
+
+.section2 div{
+    align-items: center;
+}
+
+.section2 article h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 80%;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.section2 article p:nth-child(2){
+    width: 70%;
+    line-height: 32px;
+    margin-left: 20px;
+}
+
+.section2 article p:nth-child(1){
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #27697C;
+}
+
+hr{
+    width: 43px;
+    height: 2px;
+    background: #27697C;
 }
 
 /* Footer */
