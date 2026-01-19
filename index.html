@@ -129,7 +129,38 @@
             <div>
                 <a class="btnBleu" href="#">Voir tout les bureaux</a>
             </div>
+        </section>
 
+        <!-- Section 6 -->
+        <section class="section6">
+            <div>
+                <article id="formulaire">
+                    <h2>Nous contacter</h2>
+                    <h3>Pour une question ou une visite</h3>
+
+                    <form action="contact">
+                        <div class="inputStyle flex">
+                            <input type="text" id="nom" placeholder="Votre Nom" required>
+                            <input type="text" id="prenom" placeholder="Votre prénom" required>
+                        </div>
+                        <input type="text" id="entreprise" placeholder="Votre entreprise" required>
+                        <div class="inputStyle flex">
+                            <input type="text" id="mail" placeholder="Votre email" required>
+                            <input type="text" id="telephone" placeholder="Votre téléphone" required>
+                        </div>
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+
+                        <div>
+                            <input type="checkbox" id="rgpd" requiered>
+                            <label for="rgpd">En remplissant ce formulaire, je consens à ce que les informations que j'ai fournies soient envoyées par e-mail exclusivement à Foncière Pagerie Malmaison, destinataire unique, dans le but d'être contacté au sujet de ma demande. Je suis conscient(e) que j'ai le droit de modifier, d'accéder et de supprimer mes informations personnelles.</label>
+                        </div>
+
+                        <div id="envoyerBtn">
+                            <a class="btnBlan" href="#">Envoyer</a>
+                        </div>
+                    </form>
+                </article> 
+            </div> 
         </section>
     </main>
 

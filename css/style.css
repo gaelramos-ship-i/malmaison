@@ -254,6 +254,61 @@ hr{
     text-align: center;
 }
 
+/* Section 6 */
+
+.section6{
+    background: #859399;
+    color: #fff;
+    padding: 80px 0 50px;
+}
+
+.section6 div{
+    max-width: 680px;
+    margin: auto;
+}
+
+.section6 div article{
+    text-align: left;
+}
+
+.section6 div article h2{
+    color: #fff;
+}
+
+.inputStyle{
+    gap: 40px;
+}
+
+.inputStyle input{
+    width: 310px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.section6 input{
+    margin-bottom: 20px;
+}
+
+#entreprise{
+    width: 660px;
+    padding: 10px;
+}
+
+.section6 textarea{
+    width: 660px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+#rgpd{
+    margin-bottom: 0;
+}
+
+#envoyerBtn{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
 
 /* Footer */
 
