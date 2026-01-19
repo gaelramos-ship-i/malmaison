@@ -29,11 +29,17 @@ a:hover{
     transition: all 0.3s ease-out;
 }
 
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #27697C;
+}
+
 h3{
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     font-weight: 700;
-    width: 80%;
     text-transform: uppercase;
     margin-bottom: 50px;
 }
@@ -149,13 +155,6 @@ h1{
     margin-bottom: 20px;
 }
 
-.section2 article h2{
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: #27697C;
-}
-
 hr{
     width: 43px;
     height: 2px;
@@ -165,6 +164,10 @@ hr{
 
 .section2 article a{
     margin-left: 60px;
+}
+
+.section2 article h3{
+    width: 80%;
 }
 
 /* Section 3 */
@@ -220,9 +223,7 @@ hr{
 }
 
 .sectionTexte h2{
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+    color: #fff;
 }
 
 .sectionTexte p{
@@ -231,6 +232,27 @@ hr{
     margin-bottom: 20px;
 }
 
+/* Section 5 */
+
+.section5 > article:nth-child(1){
+    text-align: center;
+    padding: 50px 0;
+}
+
+.section5 div{
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.section5 div article p{
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.section5 div:nth-last-child(1){
+    text-align: center;
+}
 
 
 /* Footer */
