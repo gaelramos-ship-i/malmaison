@@ -42,6 +42,20 @@ a:hover{
     color: #fff;
 }
 
+.btnBleu{
+    font-family: "Roboto", sans-serif;
+    background: #27697C;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btnBleu:hover{
+    border: 1px solid #27697C;
+    background: #fff;
+    color: #27697C;
+}
+
 #burger{
     display: none;
 }
@@ -114,7 +128,7 @@ h1{
     height: 655px;
 }
 
-.section2 div{
+.section2 div:nth-child(1){
     align-items: center;
 }
 
@@ -131,6 +145,7 @@ h1{
     width: 70%;
     line-height: 32px;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .section2 article p:nth-child(1){
@@ -144,6 +159,11 @@ hr{
     width: 43px;
     height: 2px;
     background: #27697C;
+    margin: 15px 0;
+}
+
+.section2 article a{
+    margin-left: 60px;
 }
 
 /* Footer */
