@@ -58,3 +58,29 @@ header nav a{
     font-weight: 400;
     text-transform: uppercase;
 }
+
+/* Footer */
+
+footer{
+    background: #27697C;
+}
+
+footer div{
+    max-width: 1420px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer div p{
+    color: #fff;
+}
+
+footer div a{
+    color: #fff;
+}
+
+footer div a:hover{
+    color: #fff;
+    opacity: 0.7;
+}
