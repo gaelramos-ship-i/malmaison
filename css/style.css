@@ -1,0 +1,60 @@
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General */
+
+*{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.flex{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+a:hover{
+    color: #27697C;
+    transition: all 0.3s ease-out;
+}
+
+#burger{
+    display: none;
+}
+
+/* Header */
+
+header{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 100px;
+}
+
+header nav a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
