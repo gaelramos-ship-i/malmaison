@@ -29,6 +29,15 @@ a:hover{
     transition: all 0.3s ease-out;
 }
 
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    width: 80%;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
 .btnBlan{
     font-family: "Roboto", sans-serif;
     background: #fff;
@@ -40,6 +49,7 @@ a:hover{
 .btnBlan:hover{
     background: #27697C;
     color: #fff;
+    border: 1px solid #fff;
 }
 
 .btnBleu{
@@ -132,15 +142,6 @@ h1{
     align-items: center;
 }
 
-.section2 article h2{
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    width: 80%;
-    text-transform: uppercase;
-    margin-bottom: 50px;
-}
-
 .section2 article p:nth-child(2){
     width: 70%;
     line-height: 32px;
@@ -148,7 +149,7 @@ h1{
     margin-bottom: 20px;
 }
 
-.section2 article p:nth-child(1){
+.section2 article h2{
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -184,6 +185,52 @@ hr{
     font-size: 16px;
     font-weight: 600;
 }
+
+/* Section 4 */
+
+.section4{
+    background: #27697C;
+    padding: 50px 0;
+}
+
+.sectionImage{
+    width: 50%;
+}
+
+.section4 div article img{
+    height: 227px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.section4 .sectionImage img{
+    height: 227px;
+    object-fit: cover;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.sectionTexte{
+    padding-left: 80px;
+    color: #fff;
+}
+
+.sectionTexte h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sectionTexte p{
+    width: 75%;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
 
 
 /* Footer */
