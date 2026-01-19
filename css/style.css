@@ -166,6 +166,26 @@ hr{
     margin-left: 60px;
 }
 
+/* Section 3 */
+
+.section3 div{
+    justify-content: space-around;
+    text-align: center;
+}
+
+.section3 div article i{
+    font-size: 63px;
+    color: #27697C;
+    margin-bottom: 20px;
+}
+
+.section3 div article p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
 /* Footer */
 
 footer{
