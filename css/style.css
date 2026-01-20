@@ -19,6 +19,16 @@
     display: flex;
 }
 
+#return{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: #27697C;
+    font-size: 30px;
+    font-weight: 900;
+    background: #fff;
+}
+
 a{
     text-decoration: none;
     transition: all 0.3s ease-out;
@@ -74,16 +84,6 @@ h3{
 
 #burger{
     display: none;
-}
-
-#return{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    color: #27697C;
-    font-size: 30px;
-    font-weight: 900;
-    background: #fff;
 }
 
 /* Header */
@@ -374,6 +374,27 @@ footer div a:hover{
         width: 80%;
         margin-top: 10%;
         margin-left: 10%;
+        height: 10%;
+    }
+
+    .section2 article a{
+        margin-left: 0;
+    }
+
+    .section2 .btnBleu{
+        padding: 13px 5px;
+    }
+
+    .section2 h3{
+        font-size: 25px;
+    }
+
+    .section4 .btnBlan{
+        font-size: 9px;
+    }
+
+    .section4 .sectionImage{
+        display: none;
     }
 
     .section4 div{
@@ -381,15 +402,11 @@ footer div a:hover{
     }
 
     .sectionTexte{
-        width: 100%;
-    }
-
-    .sectionImage{
-        margin-bottom: 50px;
+        width: 90%;
     }
 
     .section4 .container{
-        padding: 15px 150px;
+        padding: 15px 40px;
     }
 
     .section5 div article img{
@@ -419,5 +436,34 @@ footer div a:hover{
 
     .section5 div article img{
         width: 180px;
+    }
+
+    .section5 div{
+        display: block;
+        text-align: center;
+    }
+
+    .section5 div article p{
+        margin-bottom: 40px;
+    }
+
+    .section6 div{
+        display: block;
+    }
+
+    #entreprise{
+        width: 250px;
+    }
+
+    .section6 textarea{
+        width: 250px;
+    }
+
+    .inputStyle input{
+        width: 250px;
+    }
+
+    .section4 h3{
+        font-size: 25px;
     }
 }
