@@ -92,7 +92,7 @@ header nav ul{
     list-style: none;
     display: flex;
     padding: 0;
-    gap: 100px;
+    gap: 50px;
 }
 
 header nav a{
@@ -334,4 +334,55 @@ footer div a{
 footer div a:hover{
     color: #fff;
     opacity: 0.7;
+}
+
+/* Responsive Tablette */
+
+@media screen and (max-width:1024px) {
+
+    #burger{
+        display: block;
+    }
+
+    header{
+        justify-content: space-between;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    .section2 div{
+        display: block;
+    }
+
+    .section2 article p:nth-child(2){
+        width: 90%;
+    }
+
+    #office{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .section4 div{
+        display: block;
+    }
+
+    .sectionTexte{
+        width: 100%;
+    }
+
+    .sectionImage{
+        margin-bottom: 50px;
+    }
+
+    .section4 .container{
+        padding: 15px 150px;
+    }
+
+    .section5 div article img{
+        width: 280px;
+    }
 }
