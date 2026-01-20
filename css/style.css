@@ -386,3 +386,28 @@ footer div a:hover{
         width: 280px;
     }
 }
+
+@media screen and (max-width:767px){
+
+    #office{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section4 .container{
+        padding: 20px 50px;
+    }
+
+    .section4 .sectionImage{
+        display: none;
+    }
+
+    .sectionTexte{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .section5 div article img{
+        width: 180px;
+    }
+}
